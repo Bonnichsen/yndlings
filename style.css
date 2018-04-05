@@ -232,9 +232,10 @@ footer {
         height: 100vh;
         background-image: url(img/splash.png);
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
+        background-size: 60%;
+        background-position: right bottom;
         background-attachment: fixed;
+        background-color: #d9e0ff;
         display: grid;
         grid-template-columns: 0.6fr 4fr 3fr 3fr;
         grid-template-rows: 1.5fr 2fr 3fr;
