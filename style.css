@@ -120,6 +120,17 @@ body {
     height: 500px;
 }
 
+#weight {
+    background-image: url(img/weight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.articles__card-img {
+    margin-left: -19px;
+}
+
 footer {
     grid-row: 7;
     width: 100%;
@@ -195,6 +206,9 @@ footer {
         grid-column: 1/3;
     }
 
+    .articles__card-img {
+        margin-left: -23.6px;
+    }
     .articles__card-date {
         right: 0;
     }
@@ -217,6 +231,9 @@ footer {
         grid-column: 1/4;
         width: 100vw;
         height: 100vh;
+        background-image: url(img/weight.png);
+
+        background-attachment: fixed;
     }
 
     .yndlingsinfo {
@@ -282,5 +299,9 @@ footer {
     footer {
         grid-column: 1/4;
         width: 100%;
+    }
+
+    .articles__card-img {
+        margin-left: -50px;
     }
 }
