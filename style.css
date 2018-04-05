@@ -19,7 +19,6 @@ body {
     grid-row: 1;
     width: 100vw;
     height: 100vh;
-    border: 2px solid blue;
 }
 
 .yndlingsinfo {
@@ -231,9 +230,22 @@ footer {
         grid-column: 1/4;
         width: 100vw;
         height: 100vh;
-        background-image: url(img/weight.png);
-
+        background-image: url(img/splash.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
         background-attachment: fixed;
+        display: grid;
+        grid-template-columns: 0.6fr 4fr 3fr 3fr;
+        grid-template-rows: 1.5fr 2fr 3fr;
+    }
+
+    #kampagnevideo{
+        grid-column: 2;
+        grid-row: 2;
+        width: 750px;
+        height: 450px;
+        background-color: dimgrey;
     }
 
     .yndlingsinfo {
